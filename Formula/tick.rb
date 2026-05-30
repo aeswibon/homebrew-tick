@@ -1,22 +1,22 @@
 class Tick < Formula
   desc "Jira TUI dashboard for the terminal"
   homepage "https://github.com/aeswibon/tick"
-  version "0.16.0"
+  version "0.18.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/aeswibon/tick/releases/download/v0.16.0/tick-aarch64-apple-darwin"
-      sha256 "b63d6795cc66c66c0eb78fc9d40e7c261f79b31c7e18404313e8e72c92d85b7a"
+      url "https://github.com/aeswibon/tick/releases/download/v0.18.0/tick-aarch64-apple-darwin"
+      sha256 "f60895dc9f1ec7fd5202f48fc2f3dce06f874e29c17fe7afe0fd4e4a271b6afc"
     else
-      url "https://github.com/aeswibon/tick/releases/download/v0.16.0/tick-x86_64-apple-darwin"
-      sha256 "3fc3607929108f150b796ffedb6bc477544d887132ec10ad3a1646a72c19f735"
+      url "https://github.com/aeswibon/tick/releases/download/v0.18.0/tick-x86_64-apple-darwin"
+      sha256 "c8e5efe9ae33ba05b4509e04837a3c00585765179c355cd42830b79481f330f7"
     end
   end
 
   on_linux do
-    url "https://github.com/aeswibon/tick/releases/download/v0.16.0/tick-x86_64-unknown-linux-gnu"
-    sha256 "40b549d5156f9fbf6aed950806cdc3ab1994179eeb85073837fac724703d6e19"
+    url "https://github.com/aeswibon/tick/releases/download/v0.18.0/tick-x86_64-unknown-linux-gnu"
+    sha256 "3d4fff4e220222a5ada1c1c2809e7a226d6da9bce2a2ce694f06cd7468cc0dc9"
   end
 
   def install
